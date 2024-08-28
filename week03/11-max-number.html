@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="11-max-number.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Max Number</h1>
+    <label for="inputField">Enter a number:</label>
+    <input type="text" id="inputField" />
+    <button onclick="addButtonClicked()">Add</button>
+    <button onclick="checkButtonClicked()">Check Max</button>
+    <p id="messageBox"></p>
+    <script>
+      let numbers = [];
+
+      function addButtonClicked() {
+        let number = parseInt(document.getElementById("inputField").value);
+        if (!isNaN(number)) {
+          numbers.push(number);
+        } else {
+          alert("Please enter a valid number");
+        }
+        document.getElementById("messageBox").innerText = numbers;
+      }
+
+      function checkButtonClicked() {
+        if (numbers.length === 0) {
+          alert("Please add some numbers");
+          return;
+        } else {
+          document.getElementById("messageBox").innerText =
+            "Max number:" + findMax(numbers);
+        }
+      }
+    </script>
+  </body>
+</html>

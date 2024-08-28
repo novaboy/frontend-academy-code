@@ -1,0 +1,18 @@
+1. Given a list of integers, find the sum of all elements.
+2. Write a program to remove all duplicates from a list of strings.
+3. Create a function that takes a list of numbers and returns a new list with only the even numbers.
+4. Given two lists, find the common elements between them.
+5. Implement a function to merge two sorted lists into a single sorted list.
+6. Create a program to find the maximum and minimum values in a list of floats.
+7. Write a function that takes a list of strings and returns the longest string in the list.
+8. Create a program to count the occurrences of each word in a given sentence using a list.
+9. Given a list of names, sort them in alphabetical order.
+10. Implement a function that takes a list of numbers and returns a new list with the squared values of each element.
+11. Multiply all elements in a list.
+12. Insert an element at a specific index in the list.
+13. Remove an element from the list by its value.
+14. Remove an element from the list by its index.
+15. Find the index of the first occurrence of a specific element in the list.
+16. Find the index of the last occurrence of a specific element in the list.
+17. Reverse a list.
+18. Check if a list is empty.

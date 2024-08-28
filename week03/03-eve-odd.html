@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Even odd</h1>
+    <label for="inputField">Enter a number:</label>
+    <input type="text" id="inputField" />
+    <button onclick="buttonClicked()">Button</button>
+    <p id="messageBox"></p>
+    <script>
+      function buttonClicked() {
+        let number = 20;
+        document.getElementById("messageBox").innerText =
+          number % 2 === 0 ? "Even" : "Odd";
+      }
+    </script>
+  </body>
+</html>
